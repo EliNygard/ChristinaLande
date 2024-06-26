@@ -1,0 +1,12 @@
+.filmthumbs-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.filmthumbs-home img {
+    max-width: 100%;
+    height: 100%;
+}

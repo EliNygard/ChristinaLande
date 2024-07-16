@@ -1,0 +1,13 @@
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0rem;
+    color: var(--color-theme-dark-blue);
+}
+
+.logo-container p {
+    margin: 0;
+    padding: 0;
+}

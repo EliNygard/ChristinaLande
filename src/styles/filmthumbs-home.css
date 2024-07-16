@@ -1,12 +1,14 @@
-.filmthumbs-home {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1rem;
-    gap: 1rem;
+.my-work-section {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
 }
 
-.filmthumbs-home img {
-    max-width: 100%;
-    height: 100%;
+.my-work-section h1 {
+    margin-bottom: 2rem;
+}
+
+.filmthumbs {
+    
 }

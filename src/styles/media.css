@@ -21,21 +21,35 @@
   .topnav__item {
     font-size: 1.2rem;
   }
+
+  /* My Work Section */
+  
+  /* .column {
+      flex: 100%;
+      max-width: 100%;
+    } */
 }
 
 @media only screen and (min-width: 767px) {
-  .hide-on-desktop {
-    display: none;
-  }
+    .hide-on-desktop {
+        display: none;
+    }
+    
+    .topnav {
+        padding-top: 3rem;
+    }
+    
+    .logo h1 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+    
+    /* My Work Section */
 
-  .topnav {
-    padding-top: 3rem;
-  }
-
-  .logo h1 {
-    font-size: 2rem;
-    letter-spacing: 0.3rem;
-  }
+    /* .column {
+        flex: 50%;
+        max-width: 50%;
+    } */
 }
 
 @media only screen and (min-width: 1095px) {

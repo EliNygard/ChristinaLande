@@ -1,4 +1,7 @@
+@import url("./reset.css");
+
 @import url("./components/header.css");
+@import url("./components/my-work-section.css");
 
 
 @import url("./fonts/fonts.css");

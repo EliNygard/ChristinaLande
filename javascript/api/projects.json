@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "title": "Ivo",
+      "genre": "Short Fiction",
+      "synopsis": "Lorem ipsum dolor sit amet consectetur. Nibh eget nec donec fames ultrices. In placerat sed consectetur nisl. Maecenas sem amet curabitur congue eget quis sit eget.",
+      "director": "Christina Lande",
+      "producer": "Original Film",
+      "cinematography": "Edvart Falch Alsos",
+      "winner": "Vinner av Grand Prize - Live Action Short ved Rhode Island Int Film Festival 2020. Dermed Oscar-kvalifisert",
+      "festivals": [
+        "The Norwegian Short Film Festival",
+        "Tromsø International Film Festival",
+        "Rhode Island International Film Festival"
+      ],
+      "trailer": "#",
+      "film": "#",
+      "images": [
+        {
+          "image-1": [
+            {
+              "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+              "alt": "lorem ipsum"
+            }
+          ],
+          "image-2": [
+            {
+                "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+                "alt": "lorem ipsum"
+            }
+
+          ]
+        }
+
+      ]
+    }
+  ],
+  "contact": {
+    "name": "Christina Lande",
+    "email": "your-email@example.com",
+    "instagram": "http://linkedin.com/in/yourprofile"
+  }
+}

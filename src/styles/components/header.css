@@ -41,3 +41,10 @@
     translate: 0 0;
     opacity: 1;
 }
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    letter-spacing: 0.123rem;
+}

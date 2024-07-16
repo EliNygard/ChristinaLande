@@ -7,7 +7,12 @@
     color: var(--color-theme-dark-blue);
 }
 
-.logo-container p {
-    margin: 0;
-    padding: 0;
+#btnOpen {
+    border: none;
+    background-color: transparent;
+
+}
+
+#btnOpen i, #btnClose i {
+    font-size: 1.5rem;
 }

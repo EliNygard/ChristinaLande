@@ -26,8 +26,19 @@
       <nav>
         <span id="nav-label" hidden>Navigation</span>
         <button id="btnOpen" class="topnav__open hide-on-desktop" aria-expanded="false" aria-labelledby="nav-label">
-          Menu
+          <i class="fa-solid fa-bars"></i>
         </button>
+        <div class="topnav__menu" role="dialog" aria-labelledby="nav-label">
+          <button id="btnClose" class="btnClose hide-on-desktop" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul class="topnav__links">
+            <li class="topnav__item"></li>
+            <li class="topnav__item"></li>
+            <li class="topnav__item"></li>
+            <li class="topnav__item"></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>

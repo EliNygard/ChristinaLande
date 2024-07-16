@@ -5,6 +5,7 @@
     margin: auto;
     padding: 1rem 0rem;
     color: black;
+    position: relative;
 }
 
 .topnav__open, .topnav__close {
@@ -33,6 +34,7 @@
     text-decoration: none;
     color: black;
     font-size: 1.3rem;
+    pointer-events: auto;
 }
 
 .topnav__close {
@@ -43,10 +45,10 @@
     height: 3rem;
 }
 
-.topnav__menu.open {
+/* .topnav__menu.open {
     translate: 0 0;
     opacity: 1;
-}
+} */
 
 .logo {
     text-decoration: none;

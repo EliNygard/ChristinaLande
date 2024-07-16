@@ -4,10 +4,10 @@
     align-items: center;
     margin: auto;
     padding: 0rem;
-    color: var(--color-theme-dark-blue);
+    color: black;
 }
 
-.topnav__open {
+.topnav__open, .topnav__close {
     border: none;
     background: none;
 }

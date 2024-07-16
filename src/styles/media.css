@@ -22,12 +22,7 @@
     font-size: 1.2rem;
   }
 
-  /* My Work Section */
   
-  /* .column {
-      flex: 100%;
-      max-width: 100%;
-    } */
 }
 
 @media only screen and (min-width: 767px) {
@@ -44,12 +39,7 @@
         letter-spacing: 0.3rem;
     }
     
-    /* My Work Section */
-
-    /* .column {
-        flex: 50%;
-        max-width: 50%;
-    } */
+    
 }
 
 @media only screen and (min-width: 1095px) {

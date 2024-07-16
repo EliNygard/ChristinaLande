@@ -7,12 +7,37 @@
     color: var(--color-theme-dark-blue);
 }
 
-#btnOpen {
+.topnav__open {
     border: none;
-    background-color: transparent;
-
+    background: none;
 }
 
 #btnOpen i, #btnClose i {
     font-size: 1.5rem;
+}
+
+.topnav__links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav__item {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.topnav__close {
+    display: block;
+    margin-inline-start: auto;
+    margin-block-end: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.topnav__menu.open {
+    translate: 0 0;
+    opacity: 1;
 }

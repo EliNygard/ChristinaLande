@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Mulish
+- Font Author: Copyright 2016 The Mulish Project Authors (https://github.com/googlefonts/mulish)
+- Font Source: https://fonts.gstatic.com/s/mulish/v13/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaClGrw-PTY.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

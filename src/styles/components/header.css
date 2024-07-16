@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 0rem;
+    padding: 1rem 0rem;
     color: black;
 }
 
@@ -18,7 +18,7 @@
 
 .topnav__links {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -26,7 +26,13 @@
 
 .topnav__item {
     list-style-type: none;
-    padding: 1rem;
+    /* padding: 1rem; */
+}
+
+.topnav__item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
 }
 
 .topnav__close {
@@ -45,6 +51,11 @@
 .logo {
     text-decoration: none;
     color: black;
-    font-size: .8rem;
-    letter-spacing: 0.123rem;
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    letter-spacing: 0.124rem;
 }

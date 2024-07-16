@@ -1,35 +1,46 @@
 @media only screen and (max-width: 766px) {
-    .hide-on-mobile {
-      display: none;
-    }
-  
-    .topnav__menu {
-      position: fixed;
-      inset: 0;
-      padding: 1.5rem;
-      background-color: white;
-      color: black;
-      translate: 100vw 0;
-      opacity: 0;
-      transition: translate 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    }
-  
-    .topnav__links {
-      flex-direction: column;
-    }
-  
-    .topnav__item {
-      font-size: 1.2rem;
-    }
+  .hide-on-mobile {
+    display: none;
   }
-  
-  @media only screen and (min-width: 767px) {
-    .hide-on-desktop {
-      display: none;
+
+  .topnav__menu {
+    position: fixed;
+    inset: 0;
+    padding: 1.5rem;
+    background-color: white;
+    color: black;
+    translate: 100vw 0;
+    opacity: 0;
+    transition: translate 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .topnav__links {
+    flex-direction: column;
+  }
+
+  .topnav__item {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .hide-on-desktop {
+    display: none;
+  }
+
+  .topnav {
+    padding-top: 3rem;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media only screen and (min-width: 1095px) {
+    .logo h1 {
+      font-size: 3rem;
+      letter-spacing: 0.385rem;
     }
-
-    .topnav {
-        font-size: 1.2rem;
-      }
-
 }

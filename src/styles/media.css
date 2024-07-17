@@ -53,9 +53,23 @@
         grid-row: 1;
     }
 
-    .text-content {
+    .about-one-text-content {
         grid-column: 2;
         grid-row: 1;
+    }
+
+    .about-two {
+      grid-template-columns: 50% 1fr;
+    }
+
+    .about-two-text-content {
+      grid-column: 1;
+      grid-row: 1;
+    } 
+
+    .about-two img {
+      grid-column: 2;
+      grid-row: 1;
     }
 }
 

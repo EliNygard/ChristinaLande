@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(auto, auto);
-    gap: 4rem;
+    gap: 2rem;
     margin: auto;
     padding-top: 8rem;
 }
@@ -14,12 +14,12 @@
     object-fit: cover;
 }
 
-.text-content {
+.about-one-text-content {
     grid-column: 1;
     grid-row: 2;
 }
 
-.about-one p {
+.about-one-text-content p {
     padding: 0;
     margin: 0;
     font-size: 1.25rem;
@@ -35,3 +35,29 @@
     margin: 7rem 0;
 }
 
+.about-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(auto, auto);
+    gap: 2rem;
+    margin: auto;
+}
+
+.about-two-text-content {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.about-two img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-two-text-content p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 2.18rem;
+}

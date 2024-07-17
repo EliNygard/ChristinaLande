@@ -13,7 +13,3 @@ export function openInstagramApp(event, username) {
     }, 500)
 }
 
-const insta = document.getElementById("insta")
-insta.addEventListener("click", (event) => {
-    openInstagramApp(event, "sorryma")
-})

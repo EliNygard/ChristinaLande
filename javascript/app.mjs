@@ -3,6 +3,9 @@ import { initializeTopNav } from "./ui/topNav.mjs";
 
 initializeTopNav();
 
-openInstagramApp();
+
+
+const insta = document.getElementById("insta")
+insta.addEventListener("click", (event) => openInstagramApp(event, "sorryma"))
 
 

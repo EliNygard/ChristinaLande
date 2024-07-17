@@ -9,6 +9,32 @@
   justify-content: center;
 }
 
+.thumb-container{
+    /* width: 100%; */
+    /* height:fit-content; */
+    position: relative;
+    overflow: hidden;
+}
+
+.thumb-container .hover-title {
+    background: #DAE2E4;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+.thumb-container:hover .hover-title {
+    opacity: 1;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -30,12 +56,6 @@
     width: 100%;
 }
 
-/* @media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-} */
 
 @media screen and (max-width: 600px) {
     .column {

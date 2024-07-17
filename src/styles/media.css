@@ -17,7 +17,7 @@
   .topnav__menu.open {
     translate: 0 0;
     opacity: 1;
-}
+  }
 
   .topnav__links {
     flex-direction: column;
@@ -26,56 +26,50 @@
   .topnav__item {
     font-size: 1.2rem;
   }
-
-  
 }
 
 @media only screen and (min-width: 767px) {
-    .hide-on-desktop {
-        display: none;
-    }
-    
-    .topnav {
-        padding-top: 3rem;
-    }
-    
-    .logo h1 {
-        font-size: 2rem;
-        letter-spacing: 0.3rem;
-    }
-    
-    .about-one {
-        grid-template-columns: 50% 1fr;
-    }
+  .hide-on-desktop {
+    display: none;
+  }
 
-    .about-one img {
-        grid-column: 1;
-        grid-row: 1;
-    }
+  .topnav {
+    padding-top: 3rem;
+  }
 
-    .about-one-text-content {
-        grid-column: 2;
-        grid-row: 1;
-    }
+  .logo h1 {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
 
-    .about-two {
-      grid-template-columns: 50% 1fr;
-    }
+  .about-section {
+    grid-template-columns: 50% 50%;
+  }
 
-    .about-two-text-content {
-      grid-column: 1;
-      grid-row: 1;
-    } 
+  .profile-img {
+    grid-column: 1;
+    grid-row: 1;
+  }
 
-    .about-two img {
-      grid-column: 2;
-      grid-row: 1;
-    }
+  .about-introtext {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .about-more-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .about-more-images {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
 
 @media only screen and (min-width: 1095px) {
-    .logo h1 {
-      font-size: 3rem;
-      letter-spacing: 0.385rem;
-    }
+  .logo h1 {
+    font-size: 3rem;
+    letter-spacing: 0.385rem;
+  }
 }

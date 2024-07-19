@@ -99,6 +99,7 @@
 
   .project-img-secondary {
     grid-row: 3/9;
+    margin-top: 0;
   }
 
   .project-img-primary, .project-img-secondary {

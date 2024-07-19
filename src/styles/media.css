@@ -47,6 +47,23 @@
     margin: auto;
   }
 
+  .project-wrapper * p {
+    font-size: 1.125rem;
+  }
+
+  .project-wrapper h1 {
+    font-size: 1.5625rem;
+  }
+
+  .project-wrapper h2,
+  .festivals h3 {
+    font-size: 1.125rem;
+  }
+
+  .links button {
+    font-size: 1rem;
+  }
+
   .about-section {
     grid-template-columns: 50% 50%;
   }
@@ -72,7 +89,7 @@
   }
 
   footer p {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -98,19 +115,19 @@
   }
 
   .project-img-secondary {
-    grid-row: 3/9;
+    grid-row: 3/2;
     margin-top: 0;
   }
 
-  .project-img-primary, .project-img-secondary {
+  .project-img-primary,
+  .project-img-secondary {
     grid-column: 1;
     margin-right: 3rem;
   }
 
   .project-content-container {
     grid-column: 2;
-    grid-row: 2/6;
+    grid-row: 2/3;
     margin-left: 3rem;
   }
-
 }

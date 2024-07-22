@@ -18,13 +18,13 @@
       "film": "#",
       "images": [
         {
-          "image-1": [
+          "image1": [
             {
               "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
               "alt": "lorem ipsum"
             }
           ],
-          "image-2": [
+          "image2": [
             {
                 "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
                 "alt": "lorem ipsum"

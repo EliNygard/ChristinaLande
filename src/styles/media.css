@@ -130,4 +130,22 @@
     grid-row: 2/3;
     margin-left: 3rem;
   }
+
+  .cv-heading {
+    margin-top: 3rem;
+  }
+
+  .cv-heading, .cv-section {
+    font-size: 1.25rem;
+  }
+
+  .cv-section {
+    margin-top: 5rem;
+  }
+
+  .cv-list p {
+    line-height: 2.2rem;
+
+  }
+
 }

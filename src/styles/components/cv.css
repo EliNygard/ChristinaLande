@@ -1,0 +1,17 @@
+.cv-heading {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.cv-section {
+    margin-top: 3rem;
+}
+
+.cv-section p {
+    line-height: 1.5rem;
+    letter-spacing: .14rem;
+}
+
+.cv-space {
+    padding-left: .5rem;
+}

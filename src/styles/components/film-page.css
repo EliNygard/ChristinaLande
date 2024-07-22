@@ -33,6 +33,10 @@
     width: 100%;
 }
 
+.project-content-container {
+    margin-top: 1rem;
+}
+
 .synopsis {
     margin: 0 0 2rem 0;
     padding: 0;

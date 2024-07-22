@@ -46,8 +46,14 @@ export function generateFilmPageHtml(project) {
     const border = document.createElement("div")
     border.classList.add("border")
 
+    const winnerContainer = document.createElement("div")
+    winnerContainer.classList.add("winner")
+
+
+
+
     credits.append(director, producer, photo)
-    contentContainer.append(synopsis, credits)
+    contentContainer.append(synopsis, credits, border, winnerContainer)
     imgPriContainer.appendChild(imgPrimary)
     headings.append(h1, h2)
     container.append(headings, imgPriContainer, contentContainer)

@@ -6,7 +6,7 @@
   .topnav__menu {
     position: fixed;
     inset: 0;
-    padding: 1.5rem;
+    padding: .5rem 1rem;
     background-color: white;
     color: black;
     translate: 100vw 0;

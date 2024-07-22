@@ -20,17 +20,17 @@
         {
           "image1": 
             {
-              "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+              "img": "../.././src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
               "alt": "lorem ipsum"
             },
           "image2": 
             {
-                "img": "../../.src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+                "img": "../.././src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
                 "alt": "lorem ipsum"
             }
         }
     }],
-    
+
   "contact": {
     "name": "Christina Lande",
     "email": "your-email@example.com",

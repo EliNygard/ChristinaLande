@@ -1,5 +1,5 @@
 export function generateFilmPageHtml(project) {
-    const container = document.createElement("div")
+    const section = document.getElementById("filmPage")
     
     const headings = document.createElement("div")
     headings.classList.add("project-headings", "manrope-heading")
@@ -57,7 +57,7 @@ export function generateFilmPageHtml(project) {
     contentContainer.append(synopsis, credits, border, winnerContainer)
     imgPriContainer.appendChild(imgPrimary)
     headings.append(h1, h2)
-    container.append(headings, imgPriContainer, contentContainer)
+    section.append(headings, imgPriContainer, contentContainer)
 
-    return container
+    
 }

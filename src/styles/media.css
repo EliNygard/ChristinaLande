@@ -60,6 +60,10 @@
     font-size: 1.125rem;
   }
 
+  .project-content-container {
+    margin-top: 0;
+  }
+
   .links button {
     font-size: 1rem;
   }

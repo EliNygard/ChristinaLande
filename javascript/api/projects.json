@@ -20,13 +20,30 @@
         {
           "image1": 
             {
-              "img": "../.././src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+              "img": "../.././src/assets/stills/Ivo/IVO_1_KEYSTILLFRAME.jpg",
               "alt": "lorem ipsum"
             },
           "image2": 
             {
-                "img": "../.././src/assets/thumbs-home/IVO_5_KEYSTILLFRAME.jpg",
+                "img": "../.././src/assets/stills/Ivo/IVO_3_KEYSTILLFRAME.jpg",
                 "alt": "lorem ipsum"
+            },
+            "image3":
+            {
+              "img": "../.././src/assets/stills/Ivo/IVO_5_KEYSTILLFRAME.jpg",
+              "alt": "lorem ipsum"
+            }
+            ,
+            "image4":
+            {
+              "img": "../.././src/assets/stills/Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
+              "alt": "lorem ipsum"
+            }
+            ,
+            "image5":
+            {
+              "img": "../.././src/assets/stills/Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
+              "alt": "lorem ipsum"
             }
         }
     }],

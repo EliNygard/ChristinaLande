@@ -1,8 +1,8 @@
 import { redirect } from "../functionality/redirect.mjs";
 
 export function generateFilmPageHtml(project) {
-  const section = document.createElement("section")
-  section.classList.add("project-wrapper")
+  const section = document.createElement("section");
+  section.classList.add("project-wrapper");
 
   const headings = document.createElement("div");
   headings.classList.add("project-headings", "manrope-heading");
@@ -79,42 +79,44 @@ export function generateFilmPageHtml(project) {
 
   const trailer = document.createElement("a");
   trailer.setAttribute("id", "linkTrailer");
-  trailer.title = "Watch trailer"
+  trailer.title = "Watch trailer";
   trailer.addEventListener("click", (event) => {
-    event.preventDefault()
-    redirect(project.trailer)
-  })
+    event.preventDefault();
+    redirect(project.trailer);
+  });
 
   const btnTrailer = document.createElement("button");
   btnTrailer.textContent = "Watch Trailer";
+  btnTrailer.classList.add("btnLink");
 
   const film = document.createElement("a");
   film.setAttribute("id", "linkFilm");
-  film.title = "Watch film"
+  film.title = "Watch film";
   film.addEventListener("click", (event) => {
-    event.preventDefault()
-    redirect(project.film)
-  })
+    event.preventDefault();
+    redirect(project.film);
+  });
 
   const btnFilm = document.createElement("button");
   btnFilm.textContent = "Watch Film";
+  btnFilm.classList.add("btnLink");
 
   const imgSecContainer = document.createElement("div");
   imgSecContainer.classList.add("project-img-secondary");
 
-  const imgSecondary = project.imgSecondary
+  const imgSecondary = project.imgSecondary;
   imgSecondary.forEach((imgSecObject) => {
-    Object.keys(imgSecObject).forEach(key => {
-        const imgSec = imgSecObject[key]
+    Object.keys(imgSecObject).forEach((key) => {
+      const imgSec = imgSecObject[key];
 
-        const img = document.createElement("img")
-        img.src = imgSec.img
-        img.alt = imgSec.alt
-        imgSecContainer.appendChild(img)
-    })
-  })
+      const img = document.createElement("img");
+      img.src = imgSec.img;
+      img.alt = imgSec.alt;
+      imgSecContainer.appendChild(img);
+    });
+  });
 
-  trailer.appendChild(btnTrailer)
+  trailer.appendChild(btnTrailer);
   film.appendChild(btnFilm);
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);
@@ -132,5 +134,5 @@ export function generateFilmPageHtml(project) {
   headings.append(h1, h2);
   section.append(headings, imgPriContainer, contentContainer, imgSecContainer);
 
-  return section
+  return section;
 }

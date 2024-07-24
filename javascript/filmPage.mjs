@@ -1,4 +1,4 @@
-import { generateFilmPageHtml } from "../.././html/filmpageHtml.mjs";
+import { generateFilmPageHtml } from "../javascript/html/filmpageHtml.mjs";
 
 
 

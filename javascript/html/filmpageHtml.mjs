@@ -89,7 +89,22 @@ export function generateFilmPageHtml(project) {
   const imgSecContainer = document.createElement("div");
   imgSecContainer.classList.add("project-img-secondary");
 
-  const imgSecondary = trailer.appendChild(btnTrailer);
+  const imgSecondary = project.imgSecondary
+  console.log(imgSecondary);
+  imgSecondary.forEach((imgSecObject) => {
+    console.log(imgSecObject);
+    Object.keys(imgSecObject).forEach(key => {
+        const imgSec = imgSecObject[key]
+        console.log(imgSec);
+
+        const img = document.createElement("img")
+        img.src = imgSec.img
+        img.alt = imgSec.alt
+        imgSecContainer.appendChild(img)
+    })
+  })
+
+
   film.appendChild(btnFilm);
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);
@@ -105,5 +120,5 @@ export function generateFilmPageHtml(project) {
   );
   imgPriContainer.appendChild(imgPrimary);
   headings.append(h1, h2);
-  section.append(headings, imgPriContainer, contentContainer);
+  section.append(headings, imgPriContainer, contentContainer, imgSecContainer);
 }

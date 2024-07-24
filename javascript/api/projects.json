@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-        "id": "01",
+      "id": "01",
       "title": "Ivo",
       "genre": "Short Fiction",
       "synopsis": "Lorem ipsum dolor sit amet consectetur. Nibh eget nec donec fames ultrices. In placerat sed consectetur nisl. Maecenas sem amet curabitur congue eget quis sit eget.",
@@ -22,31 +22,33 @@
             "alt": "lorem ipsum"
           }
       ,
-      "imgSecondary":
+      "imgSecondary": [
+
         {
           "image1": 
-            {
-                "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
-                "alt": "lorem ipsum"
-            },
-            "image2":
-            {
-              "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
-              "alt": "lorem ipsum"
-            }
-            ,
-            "image3":
-            {
-              "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
-              "alt": "lorem ipsum"
-            }
-            ,
-            "image4":
-            {
-              "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
-              "alt": "lorem ipsum"
-            }
+          {
+            "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
+            "alt": "lorem ipsum"
+          },
+          "image2":
+          {
+            "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
+            "alt": "lorem ipsum"
+          }
+          ,
+          "image3":
+          {
+            "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
+            "alt": "lorem ipsum"
+          }
+          ,
+          "image4":
+          {
+            "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
+            "alt": "lorem ipsum"
+          }
         }
+      ]
     }],
 
   "contact": {

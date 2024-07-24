@@ -111,7 +111,7 @@
 
   .project-headings {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/1;
   }
 
   .project-img-primary {
@@ -119,7 +119,7 @@
   }
 
   .project-img-secondary {
-    grid-row: 3/2;
+    grid-row: 3/4;
     margin-top: 0;
   }
 
@@ -131,7 +131,7 @@
 
   .project-content-container {
     grid-column: 2;
-    grid-row: 2/3;
+    grid-row: 2/4;
     margin-left: 3rem;
   }
 

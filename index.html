@@ -111,7 +111,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="thumb-container">
+            <div class="thumb-container" onclick="goToFilmPage('01')">
               <img
                 src="./src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg "
                 alt=""
@@ -157,6 +157,14 @@
             </div>
           </div>
       </div>
+
+      <script>
+        function goToFilmPage(filmId) {
+          console.log("klikk");
+          console.log(filmId);
+          window.location.href = `./film-page.html?id=${filmId}`
+        }
+      </script>
     </main>
     <footer class="dark-slate-grey">
       <a

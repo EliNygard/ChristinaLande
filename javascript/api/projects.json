@@ -14,7 +14,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../../.././src/assets/stills/2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
+      "img": "../../../.././src/assets/stills/2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[

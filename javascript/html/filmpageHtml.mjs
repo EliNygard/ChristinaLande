@@ -1,5 +1,6 @@
 export function generateFilmPageHtml(project) {
-  const section = document.getElementById("filmPage");
+  const section = document.createElement("section")
+  section.classList.add("project-wrapper")
 
   const headings = document.createElement("div");
   headings.classList.add("project-headings", "manrope-heading");
@@ -90,12 +91,9 @@ export function generateFilmPageHtml(project) {
   imgSecContainer.classList.add("project-img-secondary");
 
   const imgSecondary = project.imgSecondary
-  console.log(imgSecondary);
   imgSecondary.forEach((imgSecObject) => {
-    console.log(imgSecObject);
     Object.keys(imgSecObject).forEach(key => {
         const imgSec = imgSecObject[key]
-        console.log(imgSec);
 
         const img = document.createElement("img")
         img.src = imgSec.img
@@ -121,4 +119,6 @@ export function generateFilmPageHtml(project) {
   imgPriContainer.appendChild(imgPrimary);
   headings.append(h1, h2);
   section.append(headings, imgPriContainer, contentContainer, imgSecContainer);
+
+  return section
 }

@@ -1,55 +1,353 @@
 {
   "projects": [
-    {
-      "id": "01",
-      "title": "Ivo",
-      "genre": "Short Fiction",
-      "synopsis": "Lorem ipsum dolor sit amet consectetur. Nibh eget nec donec fames ultrices. In placerat sed consectetur nisl. Maecenas sem amet curabitur congue eget quis sit eget.",
-      "director": "Christina Lande",
-      "producer": "Original Film",
-      "cinematography": "Edvart Falch Alsos",
-      "winner": "Vinner av Grand Prize - Live Action Short ved Rhode Island Int Film Festival 2020. Dermed Oscar-kvalifisert",
-      "festivals": [
-        "The Norwegian Short Film Festival",
-        "Tromsø International Film Festival",
-        "Rhode Island International Film Festival"
-      ],
-      "trailer": "",
-      "film": "",
-      "imgPrimary": 
-          {
-            "img": "../.././src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
-            "alt": "lorem ipsum"
-          }
-      ,
-      "imgSecondary": [
-
-        {
-          "image1": 
-          {
-            "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
-            "alt": "lorem ipsum"
-          },
-          "image2":
-          {
-            "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
-            "alt": "lorem ipsum"
-          }
-          ,
-          "image3":
-          {
-            "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
-            "alt": "lorem ipsum"
-          }
-          ,
-          "image4":
-          {
-            "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
-            "alt": "lorem ipsum"
-          }
+    
+  {
+    "id": "01",
+    "title": "In Between Repeat",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills//2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
         }
-      ]
-    }],
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Mellom fire vegger",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2013_Mellom_fire_vegger/MellomFireVegger_sm.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "The Game",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2014_The_Game/TheGame_3.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Kameleon",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2015_Kameleon/Kameleon_1.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Ivo",
+    "genre": "Short Fiction",
+    "synopsis": "Lorem ipsum dolor sit amet consectetur. Nibh eget nec donec fames ultrices. In placerat sed consectetur nisl. Maecenas sem amet curabitur congue eget quis sit eget.",
+    "director": "Christina Lande",
+    "producer": "Original Film",
+    "cinematography": "Edvart Falch Alsos",
+    "winner": "Vinner av Grand Prize - Live Action Short ved Rhode Island Int Film Festival 2020. Dermed Oscar-kvalifisert",
+    "festivals": [
+      "The Norwegian Short Film Festival",
+      "Tromsø International Film Festival",
+      "Rhode Island International Film Festival"
+    ],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": 
+        {
+          "img": "../.././src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
+          "alt": "lorem ipsum"
+        }
+    ,
+    "imgSecondary": [
+
+      {
+        "image1": 
+        {
+          "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
+          "alt": "lorem ipsum"
+        },
+        "image2":
+        {
+          "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
+          "alt": "lorem ipsum"
+        }
+        ,
+        "image3":
+        {
+          "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
+          "alt": "lorem ipsum"
+        }
+        ,
+        "image4":
+        {
+          "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
+          "alt": "lorem ipsum"
+        }
+      }
+    ]
+  }, 
+  {
+    "id": "06",
+    "title": "Til vi klemmes igjen",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/dummy.png",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Bestemor",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2020_2_Bestemor/Bestemor__2.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Carriers",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2023_Carriers/Carriers_.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "title": "The Hole",
+    "genre": "",
+    "synopsis": "",
+    "director": "Christina Lande",
+    "producer": "",
+    "cinematography": "",
+    "winner": "",
+    "festivals": [""],
+    "trailer": "",
+    "film": "",
+    "imgPrimary": {
+      "img": "../.././src/assets/stills/2024_The_Hole/TheHole_3.jpg",
+      "alt":"lorem ipsum"
+    },
+    "imgSecondary":[
+      {
+        "image1":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image2":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image3":{
+          "img":"",
+          "alt":"lorem ipsum"
+        },
+        "image4":{
+          "img":"",
+          "alt":"lorem ipsum"
+        }
+      }
+    ]
+  }
+],
 
   "contact": {
     "name": "Christina Lande",

@@ -1,3 +1,5 @@
+import { redirect } from "../functionality/redirect.mjs";
+
 export function generateFilmPageHtml(project) {
   const section = document.createElement("section")
   section.classList.add("project-wrapper")
@@ -77,12 +79,22 @@ export function generateFilmPageHtml(project) {
 
   const trailer = document.createElement("a");
   trailer.setAttribute("id", "linkTrailer");
+  trailer.title = "Watch trailer"
+  trailer.addEventListener("click", (event) => {
+    event.preventDefault()
+    redirect(project.trailer)
+  })
 
   const btnTrailer = document.createElement("button");
   btnTrailer.textContent = "Watch Trailer";
 
   const film = document.createElement("a");
   film.setAttribute("id", "linkFilm");
+  film.title = "Watch film"
+  film.addEventListener("click", (event) => {
+    event.preventDefault()
+    redirect(project.film)
+  })
 
   const btnFilm = document.createElement("button");
   btnFilm.textContent = "Watch Film";
@@ -102,7 +114,7 @@ export function generateFilmPageHtml(project) {
     })
   })
 
-
+  trailer.appendChild(btnTrailer)
   film.appendChild(btnFilm);
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);

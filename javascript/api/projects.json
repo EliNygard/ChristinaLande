@@ -14,7 +14,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../../../.././src/assets/stills/2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
+      "img": "./src/assets/stills/2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -51,7 +51,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2013_Mellom_fire_vegger/MellomFireVegger_sm.jpg",
+      "img": "./src/assets/stills/2013_Mellom_fire_vegger/MellomFireVegger_sm.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -88,7 +88,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2014_The_Game/TheGame_3.jpg",
+      "img": "./src/assets/stills/2014_The_Game/TheGame_3.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -125,7 +125,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2015_Kameleon/Kameleon_1.jpg",
+      "img": "./src/assets/stills/2015_Kameleon/Kameleon_1.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -167,7 +167,7 @@
     "film": "",
     "imgPrimary": 
         {
-          "img": "../.././src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
           "alt": "lorem ipsum"
         }
     ,
@@ -176,24 +176,24 @@
       {
         "image1": 
         {
-          "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
           "alt": "lorem ipsum"
         },
         "image2":
         {
-          "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
           "alt": "lorem ipsum"
         }
         ,
         "image3":
         {
-          "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
+          "img": "./src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
           "alt": "lorem ipsum"
         }
         ,
         "image4":
         {
-          "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
+          "img": "./src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
           "alt": "lorem ipsum"
         }
       }
@@ -212,7 +212,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/dummy.png",
+      "img": "./src/assets/stills/dummy.png",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -249,7 +249,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2020_2_Bestemor/Bestemor__2.jpg",
+      "img": "./src/assets/stills/2020_2_Bestemor/Bestemor__2.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
@@ -286,7 +286,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2023_Carriers/Carriers_.jpg",
+      "img": "./src/assets/stills/2023_Carriers/Carriers_.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[

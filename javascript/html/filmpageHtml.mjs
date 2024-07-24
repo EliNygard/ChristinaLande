@@ -19,7 +19,6 @@ export function generateFilmPageHtml(project) {
 
   const imgPrimary = document.createElement("img");
   imgPrimary.src = project.imgPrimary.img;
-  console.log(imgPrimary.src);
   imgPrimary.alt = project.imgPrimary.alt;
 
   //   if (project.images && project.images.image1) {

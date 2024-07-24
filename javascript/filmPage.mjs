@@ -1,4 +1,6 @@
-import { generateFilmPageHtml } from "./html/filmpageHtml.mjs";
+import { generateFilmPageHtml } from "../.././html/filmpageHtml.mjs";
+
+
 
 function getQueryParameter(name) {
   const urlParams = new URLSearchParams(window.location.search);

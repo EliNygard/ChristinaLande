@@ -116,8 +116,12 @@ export function generateFilmPageHtml(project) {
     });
   });
 
-  trailer.appendChild(btnTrailer);
-  film.appendChild(btnFilm);
+  if (project.trailer) {
+    trailer.appendChild(btnTrailer);
+  }
+  if (project.film) {
+    film.appendChild(btnFilm);
+  }
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);
   winnerContainer.appendChild(winner1);

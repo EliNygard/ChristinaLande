@@ -52,9 +52,27 @@ export function generateFilmPageHtml(project) {
     const winner1 = document.createElement("p")
     winner1.textContent = project.winner
 
+    const festivalsContainer = document.createElement("div")
+    festivalsContainer.classList.add("festivals")
+
+    const h3 = document.createElement("h3")
+    h3.textContent = "Festivals"
+
+    const ulFestivals = document.createElement("ul")
+
+    const festivals = project.festivals
+    festivals.forEach((festival) => {
+        const liFestival = document.createElement("li")
+        const pFestival = document.createElement("p")
+        pFestival.textContent = festival
+        liFestival.appendChild(pFestival)
+        ulFestivals.appendChild(liFestival)
+    })
+
+    festivalsContainer.append(h3, ulFestivals)
     winnerContainer.appendChild(winner1)
     credits.append(director, producer, photo)
-    contentContainer.append(synopsis, credits, border, winnerContainer)
+    contentContainer.append(synopsis, credits, border, winnerContainer, festivalsContainer)
     imgPriContainer.appendChild(imgPrimary)
     headings.append(h1, h2)
     section.append(headings, imgPriContainer, contentContainer)

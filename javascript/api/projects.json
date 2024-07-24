@@ -323,7 +323,7 @@
     "trailer": "",
     "film": "",
     "imgPrimary": {
-      "img": "../.././src/assets/stills/2024_The_Hole/TheHole_3.jpg",
+      "img": "../../../.././src/assets/stills/2024_The_Hole/TheHole_3.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[

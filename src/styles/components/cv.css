@@ -13,6 +13,11 @@
     letter-spacing: .14rem;
 }
 
+.cv-list p svg {
+    height: 1em;
+}
+
 .cv-space {
     padding-left: .5rem;
 }
+

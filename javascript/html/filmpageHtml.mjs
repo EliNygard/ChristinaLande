@@ -15,11 +15,13 @@ export function generateFilmPageHtml(project) {
   imgPriContainer.classList.add("project-img-primary");
 
   const imgPrimary = document.createElement("img");
+  imgPrimary.src = project.imgPrimary.img;
+  imgPrimary.alt = project.imgPrimary.alt;
 
-  if (project.images && project.images.image1) {
-    imgPrimary.src = project.images.image1.img;
-    imgPrimary.alt = project.images.image1.alt;
-  }
+  //   if (project.images && project.images.image1) {
+  //     imgPrimary.src = project.images.image1.img;
+  //     imgPrimary.alt = project.images.image1.alt;
+  //   }
 
   const contentContainer = document.createElement("div");
   contentContainer.classList.add("project-content-container");
@@ -72,22 +74,22 @@ export function generateFilmPageHtml(project) {
   const linksContainer = document.createElement("div");
   linksContainer.classList.add("links");
 
-  
   const trailer = document.createElement("a");
   trailer.setAttribute("id", "linkTrailer");
-  
+
   const btnTrailer = document.createElement("button");
   btnTrailer.textContent = "Watch Trailer";
-  
-  
+
   const film = document.createElement("a");
   film.setAttribute("id", "linkFilm");
-  
+
   const btnFilm = document.createElement("button");
   btnFilm.textContent = "Watch Film";
-  
-  
-  trailer.appendChild(btnTrailer);
+
+  const imgSecContainer = document.createElement("div");
+  imgSecContainer.classList.add("project-img-secondary");
+
+  const imgSecondary = trailer.appendChild(btnTrailer);
   film.appendChild(btnFilm);
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);

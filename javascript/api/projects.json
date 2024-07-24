@@ -16,31 +16,32 @@
       ],
       "trailer": "#",
       "film": "#",
-      "images":
+      "imgPrimary": 
+          {
+            "img": "../.././src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
+            "alt": "lorem ipsum"
+          }
+      ,
+      "imgSecondary":
         {
           "image1": 
-            {
-              "img": "../.././src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
-              "alt": "lorem ipsum"
-            },
-          "image2": 
             {
                 "img": "../.././src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
                 "alt": "lorem ipsum"
             },
-            "image3":
+            "image2":
             {
               "img": "../.././src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
               "alt": "lorem ipsum"
             }
             ,
-            "image4":
+            "image3":
             {
               "img": "../.././src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
               "alt": "lorem ipsum"
             }
             ,
-            "image5":
+            "image4":
             {
               "img": "../.././src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
               "alt": "lorem ipsum"

@@ -21,11 +21,6 @@ export function generateFilmPageHtml(project) {
   imgPrimary.src = project.imgPrimary.img;
   imgPrimary.alt = project.imgPrimary.alt;
 
-  //   if (project.images && project.images.image1) {
-  //     imgPrimary.src = project.images.image1.img;
-  //     imgPrimary.alt = project.images.image1.alt;
-  //   }
-
   const contentContainer = document.createElement("div");
   contentContainer.classList.add("project-content-container");
 
@@ -44,9 +39,9 @@ export function generateFilmPageHtml(project) {
   producer.classList.add("producer");
   producer.textContent = `Produced by ${project.producer}`;
 
-  const photo = document.createElement("p");
-  photo.classList.add("photo");
-  photo.textContent = `Cinematography: ${project.cinematography}`;
+  const cinematography = document.createElement("p");
+  cinematography.classList.add("photo");
+  cinematography.textContent = `Cinematography: ${project.cinematography}`;
 
   const border = document.createElement("div");
   border.classList.add("border");
@@ -125,18 +120,27 @@ export function generateFilmPageHtml(project) {
     film.appendChild(btnFilm);
   }
 
-  linksContainer.append(trailer, film);
+  if (project.trailer) {
+    linksContainer.appendChild(trailer);
+  }
+  if (project.film) {
+    linksContainer.appendChild(film);
+  }
   festivalsContainer.append(h3, ulFestivals);
   winnerContainer.appendChild(winner1);
-  credits.append(director, producer, photo);
-  contentContainer.append(
-    synopsis,
-    credits,
-    border,
-    winnerContainer,
-    festivalsContainer,
-    linksContainer
-  );
+  credits.append(director, producer, cinematography);
+
+  contentContainer.append(synopsis, credits, border, winnerContainer);
+  if (winner1) {
+    contentContainer.appendChild(winnerContainer);
+  }
+  if (festivals.length > 0) {
+    contentContainer.appendChild(festivalsContainer);
+  }
+  if (trailer || film) {
+    contentContainer.appendChild(linksContainer);
+  }
+
   imgPriContainer.appendChild(imgPrimary);
   headings.append(h1, h2);
   section.append(headings, imgPriContainer, contentContainer);

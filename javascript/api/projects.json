@@ -319,7 +319,7 @@
     "producer": "",
     "cinematography": "",
     "winner": "",
-    "festivals": [""],
+    "festivals": [],
     "trailer": "",
     "film": "",
     "imgPrimary": {
@@ -327,24 +327,7 @@
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
-      {
-        "image1":{
-          "img":"",
-          "alt":"lorem ipsum"
-        },
-        "image2":{
-          "img":"",
-          "alt":"lorem ipsum"
-        },
-        "image3":{
-          "img":"",
-          "alt":"lorem ipsum"
-        },
-        "image4":{
-          "img":"",
-          "alt":"lorem ipsum"
-        }
-      }
+      
     ]
   }
 ],

@@ -101,17 +101,19 @@ export function generateFilmPageHtml(project) {
   btnFilm.textContent = "Watch Film";
   btnFilm.classList.add("btnLink");
 
+  const imgSecondary = project.imgSecondary;
   const imgSecContainer = document.createElement("div");
   imgSecContainer.classList.add("project-img-secondary");
 
-  const imgSecondary = project.imgSecondary;
   imgSecondary.forEach((imgSecObject) => {
     Object.keys(imgSecObject).forEach((key) => {
       const imgSec = imgSecObject[key];
+      console.log(imgSec);
 
       const img = document.createElement("img");
       img.src = imgSec.img;
       img.alt = imgSec.alt;
+
       imgSecContainer.appendChild(img);
     });
   });
@@ -122,6 +124,7 @@ export function generateFilmPageHtml(project) {
   if (project.film) {
     film.appendChild(btnFilm);
   }
+
   linksContainer.append(trailer, film);
   festivalsContainer.append(h3, ulFestivals);
   winnerContainer.appendChild(winner1);
@@ -136,7 +139,10 @@ export function generateFilmPageHtml(project) {
   );
   imgPriContainer.appendChild(imgPrimary);
   headings.append(h1, h2);
-  section.append(headings, imgPriContainer, contentContainer, imgSecContainer);
+  section.append(headings, imgPriContainer, contentContainer);
+  if (imgSecondary.length > 0) {
+    section.appendChild(imgSecContainer);
+  }
 
   return section;
 }

@@ -33,7 +33,13 @@ export function generateFilmPageHtml(project) {
 
   const director = document.createElement("p");
   director.classList.add("director");
-  director.textContent = `Written and directed by ${project.director}`;
+  director.textContent = `Directed by ${project.director}`;
+
+  const directorWriter = document.createElement("p")
+  directorWriter.textContent = `Written and directed by ${project.writerDirector}`
+
+  const writer = document.createElement("p")
+  writer.textContent = `Written by ${project.writer}`
 
   const producer = document.createElement("p");
   producer.classList.add("producer");
@@ -42,6 +48,18 @@ export function generateFilmPageHtml(project) {
   const cinematography = document.createElement("p");
   cinematography.classList.add("photo");
   cinematography.textContent = `Cinematography: ${project.cinematography}`;
+
+  const editor = document.createElement("p")
+  editor.textContent = `Editing: ${project.editor}`
+
+  const soundDesign = document.createElement("p")
+  soundDesign.textContent = `Sound Design: ${project.soundDesign}`
+
+  const music = document.createElement("p")
+  music.textContent = `Original Music: ${project.originalMusic}`
+
+  const addWriting = document.createElement("p")
+  addWriting.textContent = `Additional Writing: ${project.additionalWriting}`
 
   const border = document.createElement("div");
   border.classList.add("border");
@@ -113,6 +131,7 @@ export function generateFilmPageHtml(project) {
     });
   });
 
+
   if (project.trailer) {
     trailer.appendChild(btnTrailer);
   }
@@ -128,7 +147,36 @@ export function generateFilmPageHtml(project) {
   }
   festivalsContainer.append(h3, ulFestivals);
   winnerContainer.appendChild(winner1);
-  credits.append(director, producer, cinematography);
+
+  if (project.director) {
+    credits.appendChild(director)
+  }
+
+  if (project.directorWriter) {
+    credits.appendChild(directorWriter)
+  }
+
+  if (project.writer) {
+    credits.appendChild(writer)
+  }
+
+  credits.append(producer, cinematography);
+  
+  if (project.editor) {
+    credits.appendChild(editor)
+  }
+
+  if (project.soundDesign) {
+    credits.appendChild(soundDesign)
+  }
+
+  if (project.originalMusic) {
+    credits.appendChild(music)
+  }
+
+  if (project.additionalWriting) {
+    credits.appendChild(addWriting)
+  }
 
   contentContainer.append(synopsis, credits, border, winnerContainer);
   if (winner1) {

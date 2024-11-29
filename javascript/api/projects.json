@@ -14,10 +14,27 @@
     "trailer": "",
     "film": "https://tv.vg.no/video/62157/dokumentar-in-between-repeat",
     "imgPrimary": {
-      "img": "./src/assets/stills/2012_In_Between_Repeat/InBetweenRepeat__5.jpg",
-      "alt":"lorem ipsum"
+      "img": "../../src/assets/stills/01_In-Between-Repeat/01_pri_InBetweenRepeat.png",
+      "alt":"From the film In Between Repeat"
     },
     "imgSecondary":[
+      {
+        "image1":
+      {
+        "img": "../../src/assets/stills/01_In-Between-Repeat/02_InBetweenRepeat.png",
+        "alt": ""
+      },
+      "image2":
+      {
+        "img": "../../src/assets/stills/01_In-Between-Repeat/03_InBetweenRepeat.png",
+        "alt": ""
+      },
+      "image3":
+      {
+        "img": "../../src/assets/stills/01_In-Between-Repeat/04_InBetweenRepeat.png",
+        "alt": ""
+      }
+    }
       
     ]
   },
@@ -34,11 +51,22 @@
     "trailer": "",
     "film": "https://vimeo.com/video/80397478",
     "imgPrimary": {
-      "img": "./src/assets/stills/2013_Mellom_fire_vegger/MellomFireVegger_sm.jpg",
+      "img": "./src/assets/stills/02_Mellom-fire-vegger/01_Pri_MellomFireVegger.png",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
-      
+      {
+        "image1":
+      {
+        "img": "./src/assets/stills/02_Mellom-fire-vegger/02_MellomFireVegger.png",
+        "alt": ""
+      },
+      "image2":
+      {
+        "img": "./src/assets/stills/02_Mellom-fire-vegger/03_MellomFireVegger.png",
+        "alt": ""
+      }
+    }
     ]
   },
   {
@@ -54,11 +82,27 @@
     "trailer": "",
     "film": "https://www.youtube.com/watch?v=HBInD0_Nie8",
     "imgPrimary": {
-      "img": "./src/assets/stills/2014_The_Game/TheGame_3.jpg",
-      "alt":"lorem ipsum"
+      "img": "./src/assets/stills/03_The-Game/01_pri_TheGame.png",
+      "alt":""
     },
     "imgSecondary":[
-      
+      {
+        "image1":
+      {
+        "img": "./src/assets/stills/03_The-Game/02_TheGame.png",
+        "alt": ""
+      },
+      "image2":
+      {
+        "img": "./src/assets/stills/03_The-Game/03_TheGame.png",
+        "alt": ""
+      },
+      "image3":
+      {
+        "img": "./src/assets/stills/03_The-Game/04_TheGame.png",
+        "alt": ""
+      }
+    }
     ]
   },
   {
@@ -78,11 +122,27 @@
     "trailer": "https://www.dropbox.com/previews/Kameleon/kameleon_teaser_instagram.mp4?context=search&path=%2F&query=teaser&role=personal&typeahead_session_id=45029898601950239077286670875055",
     "film": "https://vimeo.com/video/1019705414",
     "imgPrimary": {
-      "img": "./src/assets/stills/2015_Kameleon/Kameleon_1.jpg",
+      "img": "./src/assets/stills/04_Kameleon/01_Pri_Kameleon.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
-      
+      {
+        "image1":
+      {
+        "img": "./src/assets/stills/04_Kameleon/02_Kameleon.jpg",
+        "alt": ""
+      },
+      "image2":
+      {
+        "img": "./src/assets/stills/04_Kameleon/03_Kameleon.jpg",
+        "alt": ""
+      },
+      "image3":
+      {
+        "img": "./src/assets/stills/04_Kameleon/04_Kameleon.jpg",
+        "alt": ""
+      }
+    }
     ]
   },
   {
@@ -149,11 +209,17 @@
     "trailer": "",
     "film": "https://vimeo.com/415301430",
     "imgPrimary": {
-      "img": "./src/assets/stills/2020_2_Bestemor/Bestemor__2.jpg",
-      "alt":"lorem ipsum"
+      "img": "./src/assets/stills/06_Bestemor/01_pri_Bestemor.jpg",
+      "alt":""
     },
     "imgSecondary":[
-      
+      {
+        "image1": 
+        {
+          "img": "./src/assets/stills/06_Bestemor/02_Bestemor.jpg",
+          "alt": ""
+        }
+      }
     ]
   },
   {

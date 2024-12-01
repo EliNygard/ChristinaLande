@@ -52,6 +52,9 @@ export function generateFilmPageHtml(project) {
   const editor = document.createElement("p")
   editor.textContent = `Editing: ${project.editor}`
 
+  const coreography = document.createElement("p")
+  coreography.textContent = `Coreography: ${project.coreography}`
+
   const soundDesign = document.createElement("p")
   soundDesign.textContent = `Sound Design: ${project.soundDesign}`
 
@@ -152,7 +155,7 @@ export function generateFilmPageHtml(project) {
     credits.appendChild(director)
   }
 
-  if (project.directorWriter) {
+  if (project.writerDirector) {
     credits.appendChild(directorWriter)
   }
 
@@ -164,6 +167,10 @@ export function generateFilmPageHtml(project) {
   
   if (project.editor) {
     credits.appendChild(editor)
+  }
+
+  if (project.coreography) {
+    credits.appendChild(coreography)
   }
 
   if (project.soundDesign) {

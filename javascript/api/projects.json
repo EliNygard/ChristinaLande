@@ -148,23 +148,21 @@
   {
     "id": "05",
     "title": "Ivo",
-    "genre": "Short Fiction",
+    "genre": "Live action short",
     "synopsis": "In a small-town village in the Lofoten Islands of Northern Norway, an elderly teacher faces a great dilemma as one of her pupils claims he has been bitten by her dog, and the small-town village demands her best friend to be put down.",
-    "director": "Christina Lande",
     "writerDirector": "Christina Lande",
-    "producer": "Original Film",
+    "producer": "Mona Steffensen / Original Film",
     "cinematography": "Edvart Falch Alsos",
-    "winner": "Vinner av Grand Prize - Live Action Short ved Rhode Island Int Film Festival 2020. Dermed Oscar-kvalifisert",
-    "festivals": [
-      "The Norwegian Short Film Festival",
-      "Tromsø International Film Festival",
-      "Rhode Island International Film Festival"
-    ],
+    "editor": "Karsten Meinich",
+    "soundDesign": "Mads Lid Støten",
+    "additionalWriting": "Anne Lund",
+    "winner": "BEST SHORT FILM, GRAND Prize: (RIIFF's Official Academy Nomination)",
+    "festivals": ["Arctic Shorts 2022", "LA Shorts 2021", "Vancouver International Women in Film Festival 2021", "Rhode Island IFF 2020", "Tromsø IFF 2020", "Nordkapp film festival 2019", "The Norwegian Short film festival 2019"],
     "trailer": "",
-    "film": "",
+    "film": "https://filmbib.no/perma/30bdb2567687ce5226aef610d0d789c5",
     "imgPrimary": 
         {
-          "img": "./src/assets/stills/2019_Ivo/IVO_1_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/05_Ivo/01_Pri_IVO.jpg",
           "alt": "lorem ipsum"
         }
     ,
@@ -173,24 +171,24 @@
       {
         "image1": 
         {
-          "img": "./src/assets/stills/2019_Ivo/IVO_3_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/05_Ivo/02_IVO.jpg",
           "alt": "lorem ipsum"
         },
         "image2":
         {
-          "img": "./src/assets/stills/2019_Ivo/IVO_5_KEYSTILLFRAME.jpg",
+          "img": "./src/assets/stills/05_Ivo/03_IVO.jpg",
           "alt": "lorem ipsum"
         }
         ,
         "image3":
         {
-          "img": "./src/assets/stills/2019_Ivo/IVO_IBEN1_KEYCASTFRAME.jpg",
+          "img": "./src/assets/stills/05_Ivo/04_IVO.jpg",
           "alt": "lorem ipsum"
         }
         ,
         "image4":
         {
-          "img": "./src/assets/stills/2019_Ivo/IVO_MARKUS1_KEYCASTFRAME.jpg",
+          "img": "./src/assets/stills/05_Ivo/05_IVO.jpg",
           "alt": "lorem ipsum"
         }
       }
@@ -225,41 +223,78 @@
   {
     "id": "07",
     "title": "Carriers",
-    "genre": "",
-    "synopsis": "",
+    "genre": "Music video ",
+    "synopsis": "The song 'Carriers' is from my upcoming release 'For All Those in Mourning', a concept album exploring the many stages of grief, where 'Carriers' represents the crucial support needed to bear life's heavy burdens. The album is out September 6 on Tik Records. «Carriers» is released exclusively as a video, the track will not appear on streaming platforms until the album release.",
+    "starring": "BIRRI & Thomas of Norway",
     "director": "Christina Lande",
-    "producer": "",
-    "cinematography": "",
+    "producer": "BIRRI",
+    "cinematography": "Edvart Falch Alsos",
+    "editor":"Edvart Falch Alsos",
+    "coreography": "Thomas of Norway",
     "winner": "",
     "festivals": [],
     "trailer": "",
-    "film": "",
+    "film": "https://youtu.be/fXvL4SWVZtk?feature=shared",
     "imgPrimary": {
-      "img": "./src/assets/stills/2023_Carriers/Carriers_.jpg",
+      "img": "./src/assets/stills/07_Carriers/01_pri_Carriers.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
-      
+      {
+        "image1": 
+        {
+          "img": "./src/assets/stills/07_Carriers/02_Carriers.jpg",
+          "alt": ""
+        }
+      },
+      {
+        "image2": 
+        {
+          "img": "./src/assets/stills/07_Carriers/03_Carriers.jpg",
+          "alt": ""
+        }
+      },
+      {
+        "image3": 
+        {
+          "img": "./src/assets/stills/07_Carriers/04_Carriers.jpg",
+          "alt": ""
+        }
+      }
     ]
   },
   {
     "id": "08",
-    "title": "The Hole",
-    "genre": "",
-    "synopsis": "",
+    "title": "The Hole (No Way to Grow Your Grit)",
+    "genre": "Music video",
+    "synopsis": "A gritty journey of denial and self-destruction, set against the desolate marshlands of the Lofoten Islands in Arctic Norway, as Birri confronts being her own worst enemy.",
     "director": "Christina Lande",
-    "producer": "",
-    "cinematography": "",
+    "producer": "BIRRI",
+    "cinematography": "Edvart Falch Alsos",
+    "editor":"Edvart Falch Alsos",
     "winner": "",
     "festivals": [],
     "trailer": "",
-    "film": "",
+    "film": "https://www.youtube.com/watch?v=ZwNWkN2j9dI",
     "imgPrimary": {
-      "img": "./src/assets/stills/2024_The_Hole/TheHole_3.jpg",
+      "img": "./src/assets/stills/08_The-Hole/02_TheHole.jpg",
       "alt":"lorem ipsum"
     },
     "imgSecondary":[
-     
+      {
+        "image1": 
+        {
+          "img": "./src/assets/stills/08_The-Hole/01_pri_TheHole.jpg",
+          "alt": ""
+        }
+      },
+      {
+        "image2": 
+        {
+          "img": "./src/assets/stills/08_The-Hole/03_TheHole.jpg",
+          "alt": ""
+        }
+      }
     ]
   }
 ],
